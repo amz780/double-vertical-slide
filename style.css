@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+
+    font-family: 'Poppins', sans-serif;
+    height: 100vh;
+}
+
+.slider-container{
+    position: relative;
+    overflow: hidden;
+    width: 100vh;
+    height: 100vh;
+}
+
+.left-side{
+    height: 100%;
+    width: 35%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+
